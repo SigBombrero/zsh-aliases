@@ -7,9 +7,10 @@ alias kds="kubectl describe statefulset"
 alias py3="python3"
 
 # The below functions assume you have configured kubectl to use a specified namespace
+# Otherwise, add the -n or --namespace flag and provide the namespace or the command will assume the default namespace.
 # NOTE: Useful tools -> kubectx, kubens
 
-# output all pods with their associated container images
+# output all pods with their associated container images in tabular format.
 # takes 1 optional argument which serves as a grep filter
 function kpi {
     if [[ -n "$1" ]]

@@ -2,12 +2,12 @@
 List of useful aliases and command line administration tools in zsh.
 The aliases and functions can all be added directly to your `.zshrc` file.
 
-# Dependencies
+## Dependencies
 * python3
 * git
 * kubectl
 
-# Useful tools
+## Useful tools
 * [homebrew](https://brew.sh/)
     * Can be installed using the following command:
 ```

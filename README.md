@@ -1,6 +1,6 @@
 # zsh-aliases
-###List of useful aliases and command line administration tools zsh.
-###The aliases and functions can all be added directly to your .zshrc file.
+List of useful aliases and command line administration tools in zsh.
+The aliases and functions can all be added directly to your `.zshrc` file.
 
 # Dependencies
 * python3

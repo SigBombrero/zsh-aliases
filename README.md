@@ -3,7 +3,8 @@ List of useful aliases and command line administration tools in zsh.
 The aliases and functions can all be added directly to your `.zshrc` file.
 
 ## Dependencies
-* python3
+* python 3
+* go
 * git
 * kubectl
 

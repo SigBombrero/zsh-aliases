@@ -1,4 +1,5 @@
-alias ll="ls -lia"
+alias ls="ls -G"
+alias ll="ls -liaG"
 alias cls="clear"
 alias gst="git status"
 alias k="kubectl"

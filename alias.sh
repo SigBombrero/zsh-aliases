@@ -32,3 +32,15 @@ function kge {
         echo "Please enter the name of the object for which you want the events (e.g. pod, statefulset, etc.)."
     fi   
 }
+
+# scale a statefulset in kubernetes to the desired number of replicas
+# expects name of statefulset and number of replicas as arguments
+function kss {
+    if [[ -n "$1" && -n "$2" ]]
+    then
+        kubectl scale statefulsets $1 --replicas=$2
+    else
+        echo "Please enter the name of the statefulset and number of desired replicas."
+        echo "Example usage: kss [statefulset] [replicas]"
+    fi
+}

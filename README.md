@@ -15,3 +15,7 @@ The aliases and functions can all be added directly to your `.zshrc` file.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 * [kubectx/kubens](https://github.com/ahmetb/kubectx)
+    * Can be installed via homebrew:
+```
+brew install kubectx kubens
+```
